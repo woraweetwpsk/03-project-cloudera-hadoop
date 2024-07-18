@@ -1,5 +1,22 @@
 ### 1. ติดตั้ง docker และ docker-compose บน VM
 
+ทำตาม Link นี้
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
+
+หรือทำตาม command ด้านล่างนี้
+
+```bash
+sudo apt update
+sudo apt install -y docker.io
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo usermod -aG docker ${USER}
+
+
+sudo curl -L "https://github.com/docker/compose/releases/download/$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep -Po '"tag_name": "\K.*?(?=")')/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version
+```
 
 ### 2. เริ่มต้นใช้งาน Airflow และ Cloudera บน docker-compose
 
@@ -18,22 +35,29 @@ echo -e "AIRFLOW_UID=$(id -u)" > .env
 3. เริ่มต้นใช้งาน `docker-compose up -d` (หากไม่ได้ใช้ `sudo docker-compose up -d`)
 
 4. เปิดใช้งาน Cloudera manager
+
+    ![container](https://github.com/woraweetwpsk/03-project-cloudera-hadoop/blob/main/images/container_list.png?raw=true)
+
     - `docker ps` เช็คเลข container_id ของ cloudera
     - `docker exec -it <container_id> /bin/bash` เพื่อเข้าไป execute กับ cloudera
     - `/home/cloudera/cloudera-manager --express && service ntpd start` เพื่อเริ่มต้นใช้งาน Cloudera manager
-    - login เข้าที่ `<ip_vm>:7180`
-    - เข้าใช้งาน HUE ที่ `<ip_vm>:8888`  
+    - login เข้าที่ `<ip_vm>:7180` user = cloudera , password = cloudera
+    - เมื่อเข้าไปที่หน้า Web UI ให้เข้าไปที่ service ของ HIVE แล้วเข้าไปที่ Configuration ในหัวข้อ Spark On YARN Service ให้เปลี่ยนเป็น none
+    - ลบ Service ที่ไม่ใช้ออก คือ Key-Value Store Indexer และ Spark
+    - Start Cluster
+    - เข้าใช้งาน HUE ที่ `<ip_vm>:8888`  user = cloudera , password = cloudera
 
 ### 3. สร้างไฟล์ข้อมูลโดยใช้ Airflow
+
+![airflow](https://github.com/woraweetwpsk/03-project-cloudera-hadoop/blob/main/images/dags_in_airflow.png?raw=true)
 
 1. `create_historical_dag` จะเป็น DAG ในการสร้างข้อมูล order ย้อนหลัง
 
 2. `streaming_daily_dag` จะเป็น DAG ในการ streaming ข้อมูลในทุกๆ 1-5 นาที
 
 ### 4. นำเข้าและ transform ข้อมูล customers และ products
-1. 
 
-2. สร้าง folder บน HDFS `/tmp/raw_file/` สำหรับรับข้อมูล customer, product
+1. สร้าง folder บน HDFS `/tmp/raw_file/` สำหรับรับข้อมูล customer, product
 
     ```bash
     hadoop fs -mkdir /tmp/raw_file
@@ -41,7 +65,7 @@ echo -e "AIRFLOW_UID=$(id -u)" > .env
     hadoop fs -mkdir /tmp/raw_file/products
     ```
 
-3. นำเข้าไฟล์ customers.csv และ products.csv
+2. นำเข้าไฟล์ customers.csv และ products.csv
 
     - ใช้ Bash command ในการ import เข้าไปยัง HDFS
         ```bash
@@ -55,7 +79,7 @@ echo -e "AIRFLOW_UID=$(id -u)" > .env
         hadoop fs -put /home/cloudera/data/raw/products/products.csv /tmp/raw_file/products
         ```
 
-4. นำ customer.csv และ products.csv สร้าง TABLE บน HIVE
+3. นำ customer.csv และ products.csv สร้าง TABLE บน HIVE
 
     - ใน folder `sql_script` ได้ map volumn กับ container แล้วสามารถใช้ไฟล์ใน folder ได้เลย
     - ใช้คำสั่ง run sql script 
@@ -66,6 +90,7 @@ echo -e "AIRFLOW_UID=$(id -u)" > .env
         hive -f /home/cloudera/sql_script/create_hive_raw_products.sql
         ```
     - หรือนำไป run บน HUE ที่ port 8888
+      ![hive](https://github.com/woraweetwpsk/03-project-cloudera-hadoop/blob/main/images/query_editor.png?raw=true)
         - ไปที่ Query Editors เลือก Hive
         - นำ command ในไฟล์ `create_hive_raw_customers.sql` และ `create_hive_raw_products.sql` ไป execute บน Web UI
 
@@ -74,7 +99,7 @@ echo -e "AIRFLOW_UID=$(id -u)" > .env
         SELECT * FROM default.raw_customers LIMIT 10
         ``` 
 
-5. Transform ข้อมูล customers และ products โดย Spark
+4. Transform ข้อมูล customers และ products โดย Spark
 
     - ใน folder `spark_script` ได้ map volumn กับ container แล้วสามารถใช้ไฟล์ใน folder ได้เลย
     - ใช้คำสั่ง run spark script
@@ -85,7 +110,7 @@ echo -e "AIRFLOW_UID=$(id -u)" > .env
         spark-submit /home/cloudera/spark_script/spark_products.py
         ```
 
-6. สร้าง Table clean_customers และ clean_products
+5. สร้าง Table clean_customers และ clean_products
     - ใช้คำสั่ง run sql script 
         ```bash
         hive -f /home/cloudera/sql_script/create_hive_clean_customers.sql
