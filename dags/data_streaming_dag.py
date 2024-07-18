@@ -31,32 +31,44 @@ def generate_mock_data(timezone=local_tz):
         
     return f"{timestamp},{transaction_id},{customer_id},{product_id},{quantity}"
 
-def stream_data(timezone=local_tz):
+def _stream_data(path,timezone=local_tz):
     """Function to create files .txt to output path"""
     current_time = datetime.now(timezone)
     start_time = current_time.replace(hour=9, minute=0, second=0, microsecond=0)
     end_time = current_time.replace(hour=16, minute=0 ,second=0, microsecond=0)
     
-    while current_time >= start_time and current_time <= end_time:
-        timestamp_str = datetime.now(timezone).strftime("%Y%m%d%H%M%S")
-        filename = f"order_{timestamp_str}.txt"
-        path = datetime.now().strftime("%Y%m%d")
-        output_dir = f"{OUTPUT_DIR}{path}/"
-        
-        #Create folder output
-        os.makedirs(output_dir, exist_ok=True)
-        
-        filepath = os.path.join(output_dir, filename)
-        
-        with open(filepath, "w", encoding="utf-8") as file:
-            data = generate_mock_data()
-            file.write(data + "\n")
+    try:
+        os.makedirs(path, exist_ok=True)
+        print(f"Create {path} complete")
+    except Exception as e:
+        print(e)
             
-        print(f"Create file: {filename}")
+    while current_time >= start_time:
+        if current_time <= end_time:
+            timestamp_str = datetime.now(timezone).strftime("%Y%m%d%H%M%S")
+            file_name = f"order_{timestamp_str}.txt"
+            
+            folder_name = current_time.strftime("%Y%m%d")
+            output_path = f"{path}{folder_name}/"
+            try:
+                os.makedirs(output_path, exist_ok=True)
+                print(f"Create {output_path} complete")
+            except Exception as e:
+                print(e)
         
-        random_minute = random.randint(1,5)
-        print(f"The next file will come in {random_minute} minutes.")
-        time.sleep(random_minute * 60)
+            filepath = os.path.join(output_path, file_name)
+            
+            with open(filepath, "w", encoding="utf-8") as file:
+                data = generate_mock_data()
+                file.write(data + "\n")
+                
+            print(f"Create file: {file_name}")
+            
+            random_minute = random.randint(1,5)
+            print(f"The next file will come in {random_minute} minutes.")
+            time.sleep(random_minute * 60)
+        else:
+            break
 
 with DAG(
     'data_streaming_dag',
@@ -67,8 +79,9 @@ with DAG(
 
     stream_data = PythonOperator(
         task_id='stream_data',
-        python_callable=stream_data,
-        dag=dag,
+        python_callable=_stream_data,
+        op_kwargs = {"path":OUTPUT_DIR},
+        dag=dag
     )
 
 stream_data

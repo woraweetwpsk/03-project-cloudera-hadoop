@@ -1,17 +1,75 @@
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
-from arflow.operators.mysql.operatios.mysql import MySqlOperator
+
+import os
+import time
+import random
 from datetime import datetime, timedelta
 import pendulum
-import pandas as pd
-import mysql.connector
-
-from create_historical_order import create_historical_datas, check_path
-from create_customers import create_customers_data
-from create_products import create_products_data
 
 local_tz = pendulum.timezone('Asia/Bangkok')
-PATH = "/opt/airflow/data/raw/"
+OUTPUT_DIR = "/opt/airflow/data/raw/order/"
+
+def _create_historical_datas(path,timezone=local_tz):
+    """Create mockup historical orders data"""
+    #Start Date : 20240101
+    start_date = datetime.now(timezone).replace(month=1, day=1, hour=0, minute=0, second=0, microsecond=0)
+    #End Date : datetime.now() - timedelta(days=1)
+    end_date = (datetime.now(timezone).replace(hour=0, minute=0, second=0,microsecond=0) - timedelta(days=1))
+    #Current Date : เริ่มจาก Start Date + timedelta(days=1) ไปเรื่อยๆ จนกว่าจะ == End Date
+    current_date = start_date
+    
+    try:
+        os.makedirs(path, exist_ok=True)
+        print(f"Create {path} Complete")
+    except Exception as e:
+        print(e)
+
+    #Loop ตามลำดับจาก Start Date ไป End Date โดยเพิ่มทีละ timedelta(days=1)
+    while current_date >= start_date and current_date <= end_date:
+        #Start Time : 9.00
+        #End Time : 16.00
+        start_time = current_date.replace(hour=9, minute=0, second=0,microsecond=0)
+        end_time = current_date.replace(hour=16, minute=0, second=0,microsecond=0)
+        current_time = start_time
+        
+        #Loop สร้าง Data โดยเริ่มจาก Start time ไป End time
+        while current_time >= start_time and current_time <= end_time:
+            
+            timestamp = current_time.strftime("%Y-%m-%d %H:%M:%S")
+            transaction_id = random.randint(100000,999999)
+            customer_id = random.randint(1,9999)
+            product_id = random.randint(1,999)
+            quantity = random.randint(1, 5)
+            
+            data = f"{timestamp},{transaction_id},{customer_id},{product_id},{quantity}"
+            
+            strip_time = current_time.strftime("%Y%m%d%H%M%S")
+            file_name = f"order_{strip_time}.txt"
+            
+            folder_name = current_time.strftime("%Y%m%d")
+            
+            output_path = f"{path}{folder_name}/"
+            try:
+                os.makedirs(output_path, exist_ok=True)
+                print(f"Create {output_path} Complete")
+            except Exception as e:
+                print(e)
+            
+            #Create File
+            filepath = os.path.join(output_path,file_name)
+            
+            with open(filepath, "w", encoding="utf-8") as file:
+                file.write(data + "\n")
+            
+            #โดยสุ่มตัวเลขในการเพิ่มขึ้น random_minute=random.randint(1,5)
+            #โดยจะใช้เวลาเก็บอยู่ใน current_time + ทีละ timedelta(minutes = random_minute) เมื่อจบ loop ในการสร้าง
+            random_minute = random.randint(1,5)
+            current_time += timedelta(minutes=random_minute)
+
+        current_date += timedelta(days=1)
+        
+    print("Create historical data finish")
 
 default_args = {
     'owner': 'airflow',
@@ -32,37 +90,11 @@ with DAG(
     
     create_historical_datas = PythonOperator(
         task_id = "create_historical_datas",
-        python_callable = create_historical_datas,
-        op_kwargs = {"path":f"{PATH}order", "timezone":local_tz},
+        python_callable = _create_historical_datas,
+        op_kwargs = {"path":OUTPUT_DIR, "timezone":local_tz},
         dag=dag
     )
     
-    check_path_customers = PythonOperator(
-        task_id = "check_path_customers",
-        python_callable = check_path,
-        op_kwargs = {"path":f"{PATH}customers"}
-    )
-    
-    create_customers_data = PythonOperator(
-        task_id = "create_customers_data",
-        python_callable = create_customers_data,
-        op_kwargs = {"path":f"{PATH}customers"}
-    )
-    
-    check_path_products = PythonOperator(
-        task_id = "check_path_products",
-        python_callable = check_path,
-        op_kwargs = {"path":f"{PATH}products"}
-    )
-    
-    create_products_data = PythonOperator(
-        task_id = "create_products_data",
-        python_callable = create_products_data,
-        op_kwargs = {"path":f"{PATH}products"}
-    )
-    
 create_historical_datas
-check_path_customers >> create_customers_data
-check_path_products >> create_products_data
     
     

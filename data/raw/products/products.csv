@@ -1,0 +1,1000 @@
+product_id,product_name,category,price
+1,Tempestuous Tech J50,controller,3600.0
+2,Havoc Labs Z700,chair,500.0
+3,Phantom Strike Audio,headset,750.0
+4,FocusZone 34-inch,monitor,4000.0
+5,Valhalla Gear Premium 200,desk,5000.0
+6,Fractured Focus B50,controller,3800.0
+7,Canvas Pro 27-inch,monitor,18500.0
+8,Valhalla Gear A7,controller,3600.0
+9,Quantum Flux R900,controller,3900.0
+10,Hyperweave Tech P70,controller,2000.0
+11,Atlas 50G9593,notebook,55000.0
+12,Canvas Pro 55-inch,monitor,19500.0
+13,Hyperweave Tech Cuddle,chair,2500.0
+14,Ragnarok Industries S300,controller,4300.0
+15,EyeFeast 49-inch,monitor,12000.0
+16,Apex Legion Cuddle 170,desk,8000.0
+17,Mnemonic Gear Q40,controller,2400.0
+18,Tempestuous Tech Basilisk,mouse,2500.0
+19,Quantum Flux TKL,keyboard,8000.0
+20,Apex Legion B2,controller,2200.0
+21,Apex Gamer 71M6041,notebook,35000.0
+22,Hyperweave Tech T1400 160,desk,5500.0
+23,Renegade Collective J1,mouse,1000.0
+24,LuminaLite 34-inch,monitor,12000.0
+25,Muse 68Z1431,notebook,25000.0
+26,VividView 22-inch,monitor,14500.0
+27,Apex Legion Elit,mouse,4000.0
+28,Evo Pro 2Y5427,notebook,95000.0
+29,Quantum Flux Cuddle 180,desk,6500.0
+30,Ragnarok Industries Throne,chair,8000.0
+31,Wraithspire Y800,controller,2600.0
+32, NovaSight NS 49-inch,monitor,13000.0
+33,Titanforged Echelon,headset,1750.0
+34,Titanforged Shadow,mouse,3000.0
+35,Wraithspire Z70,controller,1500.0
+36,Cybernetic Forge Q400,controller,2800.0
+37,Hyperweave Tech Q-Link,headset,4000.0
+38,ClarityPrime 43-inch,monitor,15000.0
+39, NovaSight NS 32-inch,monitor,13500.0
+40,Cybernetic Forge M8,controller,4700.0
+41,VoltBook 34K8285,notebook,55000.0
+42,Quantum Flux Ghost,keyboard,1500.0
+43,SwiftX 1W8580,notebook,75000.0
+44,LuminaLite 32-inch,monitor,12500.0
+45,Apex Legion CTRL,keyboard,9000.0
+46,Phantom Strike Collection 140,desk,500.0
+47,Spectral Edge Embrace,chair,4500.0
+48,Havoc Labs Collection,chair,1500.0
+49,Aeris Lite 57E8755,notebook,30000.0
+50,Valhalla Gear Pro,chair,5500.0
+51,Havoc Labs F1300,controller,800.0
+52,Hyperweave Tech Umbra,headset,3250.0
+53,Quantum Flux L20,controller,700.0
+54,VividView 34-inch,monitor,4500.0
+55,Mnemonic Gear Kinesis,keyboard,4000.0
+56,Muse 10S7057,notebook,45000.0
+57, NovaSight NS 24-inch,monitor,7500.0
+58,LuminaLite 34-inch,monitor,12500.0
+59,Renegade Collective Shadow,mouse,2000.0
+60,Wraithspire Pro,chair,8000.0
+61,Apex Legion Gaming,chair,9500.0
+62,Phantom Strike Collective,chair,3500.0
+63,Valhalla Gear Viper,mouse,1500.0
+64,Mnemonic Gear Elite,keyboard,1000.0
+65,Hyperweave Tech Whisper,keyboard,9500.0
+66,VoltBook 53X6080,notebook,95000.0
+67,Renegade Collective Elite,keyboard,8000.0
+68,Havoc Labs Z100,controller,3900.0
+69,Hyperweave Tech W60,controller,600.0
+70,Cybernetic Forge Embrace 220,desk,8000.0
+71,ClarityPrime 34-inch,monitor,10000.0
+72,Wraithspire X800,controller,2300.0
+73,Apex Legion Nexus,chair,7000.0
+74,Quantum Flux Premium,mouse,5500.0
+75,VersaFlex 35W3968,notebook,55000.0
+76,Phantom Strike Pro,mouse,6500.0
+77,VersaFlex 9Z5055,notebook,65000.0
+78,Ragnarok Industries S1200 200,desk,1000.0
+79,VividView 43-inch,monitor,10500.0
+80,Tempestuous Tech Nexus 120,desk,1000.0
+81,Ragnarok Industries Audio,headset,2250.0
+82,Valhalla Gear Elite 100,desk,1500.0
+83, NovaSight NS 43-inch,monitor,13000.0
+84,Quantum Flux Economic 240,desk,9500.0
+85,Spectral Edge Collective 120,desk,8500.0
+86,Apex Legion Audio,headset,750.0
+87,FocusZone 55-inch,monitor,7500.0
+88,Cybernetic Forge Collection,chair,6500.0
+89,Cybernetic Forge Pro,chair,6000.0
+90,Quantum Flux Y40,controller,4000.0
+91,VividView 49-inch,monitor,17500.0
+92,Titanforged Embrace 200,desk,500.0
+93,Mnemonic Gear Pro,mouse,4500.0
+94,Valhalla Gear A4,mouse,1000.0
+95,Spectral Edge Eclipse,keyboard,6000.0
+96,Apex Legion E300,chair,7500.0
+97,Titanforged Audio,headset,4500.0
+98,EyeFeast 49-inch,monitor,7000.0
+99,VisuGen VX 34-inch,monitor,16500.0
+100,Wraithspire Collective 100,desk,2500.0
+101,Valhalla Gear Kinesis,keyboard,7500.0
+102,Ragnarok Industries Leviathan,mouse,5000.0
+103,Nimbus Touch 15X4517,notebook,125000.0
+104,Havoc Labs L200,controller,3200.0
+105,SpectraMax Pro 34-inch,monitor,13000.0
+106,Titanforged Viper,mouse,2500.0
+107,Hyperweave Tech Embrace,chair,6500.0
+108,Apex Legion B300,controller,4200.0
+109,Phantom Strike Gaming,chair,9500.0
+110,Valhalla Gear D1400,chair,4000.0
+111,Valhalla Gear Pro 160,desk,3500.0
+112,Evo Pro 73L4967,notebook,20000.0
+113,Havoc Labs N90,headset,1500.0
+114,Valhalla Gear Q-Link,headset,3250.0
+115,EyeFeast 43-inch,monitor,10500.0
+116,Spectral Edge Embrace 120,desk,500.0
+117,Renegade Collective Premium 140,desk,7500.0
+118,Quantum Flux Elite,headset,3000.0
+119,Quantum Flux Aero,chair,6500.0
+120,Wraithspire O6,controller,1800.0
+121,Apex Legion N7,chair,7000.0
+122,Titanforged Gaming 160,desk,1500.0
+123,Canvas Pro 22-inch,monitor,3000.0
+124,Havoc Labs Umbra,headset,500.0
+125,Evo Pro 62F1693,notebook,35000.0
+126,Titanforged W100 160,desk,6000.0
+127,Tempestuous Tech Elite,chair,9000.0
+128,Ragnarok Industries Kinesis,keyboard,8000.0
+129,Havoc Labs Gamming,mouse,4500.0
+130,Cybernetic Forge I3,controller,1000.0
+131,Apex Legion T6,controller,4400.0
+132,VisuGen VX 32-inch,monitor,3500.0
+133,Evo Pro 24N2842,notebook,125000.0
+134,AeroStream AS 49-inch,monitor,14000.0
+135,Hyperweave Tech Ghost,keyboard,3000.0
+136,VoltBook 94N9970,notebook,135000.0
+137,Zenith Z-Curve 43-inch,monitor,10500.0
+138,Titanforged R3,controller,2000.0
+139,Hyperweave Tech Elit,mouse,4500.0
+140,VividView 24-inch,monitor,16500.0
+141,Quantum Flux V1000,controller,3800.0
+142,BizLine 43P1191,notebook,70000.0
+143,Phantom Strike Prime,chair,8500.0
+144,Tempestuous Tech CTRL,keyboard,7500.0
+145,Apex Gamer 92B3909,notebook,45000.0
+146,NovaFlight 76D6979,notebook,70000.0
+147,Phantom Strike Surround,headset,750.0
+148,BizLine 27H5133,notebook,30000.0
+149,Titanforged Ghost,keyboard,3500.0
+150,Nomad Pro 58P8902,notebook,50000.0
+151,Fractured Focus Pro,chair,4000.0
+152,Cybernetic Forge Collective 180,desk,7500.0
+153,VividView 27-inch,monitor,8000.0
+154,Tempestuous Tech Collective,chair,6000.0
+155,Fractured Focus Collection,chair,5000.0
+156,Renegade Collective Premium,mouse,3000.0
+157,Quantum Flux Synapse,headset,2750.0
+158,Spectral Edge I4,mouse,2000.0
+159,Havoc Labs Prime,chair,6500.0
+160,Renegade Collective A400,controller,500.0
+161,Hyperweave Tech Gaming,chair,5000.0
+162,Renegade Collective Shadow,mouse,4500.0
+163,Wraithspire Pro 240,desk,4500.0
+164,BizLine 94B5093,notebook,40000.0
+165,Quantum Flux Pro,mouse,1500.0
+166,Apex Gamer 35U9839,notebook,90000.0
+167,Cybernetic Forge Gaming 100,desk,2000.0
+168,Mnemonic Gear Storm,keyboard,4500.0
+169,Cybernetic Forge Premium,mouse,7500.0
+170,Ragnarok Industries Onslaught,keyboard,8500.0
+171,Ragnarok Industries S60,controller,2700.0
+172,Apex Legion Aegis,headset,4750.0
+173,VividView 27-inch,monitor,5000.0
+174,Havoc Labs Leviathan,mouse,7000.0
+175,Lumina Canvas 77E9501,notebook,35000.0
+176,Valhalla Gear U80,controller,3000.0
+177,Havoc Labs Gaming 220,desk,4500.0
+178,Havoc Labs TKL,keyboard,7000.0
+179,Apex Legion Gamming,mouse,3000.0
+180,Ragnarok Industries Wraith,keyboard,3500.0
+181,Tempestuous Tech Embrace 170,desk,5500.0
+182,Mnemonic Gear Collection 200,desk,9500.0
+183,VisuGen VX 27-inch,monitor,8000.0
+184,Hyperweave Tech Bifrost,keyboard,3500.0
+185,Phantom Strike Premium 100,desk,8000.0
+186,Phantom Strike M60 140,desk,2500.0
+187,Renegade Collective G3,headset,3500.0
+188,BizLine 75A2772,notebook,60000.0
+189,NovaFlight 94C9359,notebook,100000.0
+190,Mnemonic Gear Pro,mouse,4000.0
+191,Havoc Labs Pro,headset,2500.0
+192,VoltBook 9W3556,notebook,60000.0
+193,Lumina Canvas 22E6516,notebook,135000.0
+194,Apex Legion Collection,chair,2500.0
+195,Cybernetic Forge Audio,headset,4000.0
+196,Tempestuous Tech Wireless,headset,750.0
+197,Havoc Labs Nexus,chair,6500.0
+198,Spectral Edge N200,headset,1250.0
+199,Valhalla Gear P40,controller,4400.0
+200,Comet 67J7802,notebook,135000.0
+201,Hyperweave Tech Elit,mouse,1500.0
+202,Spectral Edge Pro,chair,9000.0
+203,Spectral Edge Cuddle 160,desk,1500.0
+204,Paniramic View 22-inch,monitor,8000.0
+205,SpectraMax Pro 49-inch,monitor,8000.0
+206, NovaSight NS 43-inch,monitor,5500.0
+207,Mnemonic Gear F20 140,desk,8500.0
+208,Spectral Edge Whisper,keyboard,1000.0
+209,Ragnarok Industries CTRL,keyboard,5000.0
+210,Ragnarok Industries Throne,chair,4000.0
+211,Havoc Labs Bifrost,keyboard,6500.0
+212,BizLine 23P3835,notebook,35000.0
+213,VisuGen VX 24-inch,monitor,18500.0
+214,Valhalla Gear Wraith,keyboard,5000.0
+215,Quantum Flux Premium,mouse,4000.0
+216,Havoc Labs Gaming,chair,8000.0
+217,Fractured Focus U8,mouse,3000.0
+218,Wraithspire Bifrost,keyboard,4000.0
+219,Renegade Collective P600,controller,2900.0
+220,Spectral Edge K6,controller,2900.0
+221,Fractured Focus Premium,mouse,3000.0
+222,Apex Legion Pro,headset,1750.0
+223,Valhalla Gear Premium,mouse,2500.0
+224,Canvas Pro 34-inch,monitor,8500.0
+225, NovaSight NS 34-inch,monitor,18000.0
+226,Wraithspire Z80,chair,9000.0
+227,Titanforged Elite,keyboard,6000.0
+228,Apex Legion Kraken,mouse,4500.0
+229,Quantum Flux L1400,headset,3250.0
+230,Phantom Strike Audio,headset,2000.0
+231,Renegade Collective Viper,mouse,5000.0
+232,VividView 24-inch,monitor,3000.0
+233,EdgeLight 10O8616,notebook,70000.0
+234,ClarityPrime 43-inch,monitor,15000.0
+235,Apex Legion Umbra,headset,4750.0
+236,Tempestuous Tech T1300,headset,1500.0
+237,VividView 55-inch,monitor,15000.0
+238,SpectraMax 20D4775,notebook,120000.0
+239,Fractured Focus W1300,controller,3600.0
+240,Havoc Labs K6,controller,1800.0
+241,Havoc Labs Pro 120,desk,6000.0
+242,Hyperweave Tech Nexus 200,desk,1000.0
+243,Wraithspire Kraken,mouse,1000.0
+244,Hyperweave Tech Collective,chair,1500.0
+245,Renegade Collective Collective,chair,6000.0
+246,Wraithspire G600 200,desk,4500.0
+247,Havoc Labs Aero,chair,9500.0
+248,BizLine 62A4246,notebook,105000.0
+249,Atlas 65F6117,notebook,130000.0
+250,Valhalla Gear Pro,mouse,3000.0
+251,Spectral Edge Y1400,controller,1300.0
+252,Evo Pro 90R9120,notebook,110000.0
+253,LuminaLite 55-inch,monitor,7500.0
+254,TitanCore 27A6315,notebook,55000.0
+255,LuminaLite 24-inch,monitor,16500.0
+256,Wraithspire Gaming 160,desk,8000.0
+257,Hyperweave Tech ANC,headset,2750.0
+258,Strata X 87O3379,notebook,35000.0
+259,Quantum Flux Audio,headset,2500.0
+260,Tempestuous Tech F300,controller,1300.0
+261,Cybernetic Forge Embrace,chair,3000.0
+262,Hyperweave Tech Storm,keyboard,6000.0
+263,VoltBook 87I4890,notebook,80000.0
+264,Cybernetic Forge Q2,mouse,3500.0
+265,SwiftX 55H2403,notebook,85000.0
+266,Valhalla Gear V1300,headset,4750.0
+267,Fractured Focus Collective,chair,5500.0
+268,Apex Legion Premium,mouse,5000.0
+269,Titanforged Gamming,mouse,1000.0
+270,Havoc Labs Premium,chair,4500.0
+271,Phantom Strike Basilisk,mouse,4500.0
+272,StudioCraft 32Z2147,notebook,65000.0
+273,ClarityPrime 49-inch,monitor,6500.0
+274,Hyperweave Tech Audio,headset,1250.0
+275,Quantum Flux Throne 140,desk,1500.0
+276,Wraithspire Cuddle,chair,8000.0
+277,Mnemonic Gear Pro,chair,1000.0
+278,VersaFlex 80N1294,notebook,90000.0
+279,Valhalla Gear Eclipse,keyboard,6500.0
+280,Mnemonic Gear Bifrost,keyboard,4500.0
+281,Aeris Lite 14H4660,notebook,120000.0
+282,Apex Legion E200,controller,3500.0
+283,Apex Legion Pro,mouse,4500.0
+284,Apex Legion Pro,mouse,2000.0
+285,Fractured Focus N500,controller,500.0
+286,Spectral Edge Bifrost,keyboard,3000.0
+287,Tempestuous Tech Leviathan,mouse,1000.0
+288,Ragnarok Industries Premium,chair,2000.0
+289,Phantom Strike Q6,controller,2500.0
+290,Titanforged Leviathan,mouse,1000.0
+291,Wraithspire X20,controller,1700.0
+292,VisuGen VX 24-inch,monitor,10000.0
+293,Havoc Labs U3,controller,3900.0
+294,Fractured Focus Elite 100,desk,4000.0
+295,Spectral Edge Elit,mouse,4000.0
+296,Renegade Collective Whisper,keyboard,3000.0
+297,Fractured Focus H800,controller,2100.0
+298,VisuGen VX 32-inch,monitor,3000.0
+299,Havoc Labs Elite,headset,4500.0
+300,Cybernetic Forge Nexus,chair,1000.0
+301,Quantum Flux ANC,headset,3250.0
+302, NovaSight NS 34-inch,monitor,10000.0
+303,Wraithspire I2,controller,600.0
+304,Wraithspire Embrace,chair,1000.0
+305,Phantom Strike S8,headset,1500.0
+306,Tempestuous Tech Pro,mouse,5000.0
+307,SwiftX 24U7265,notebook,120000.0
+308,Apex Legion T1,keyboard,9500.0
+309,Titanforged L40,controller,1300.0
+310,Phantom Strike H20,controller,700.0
+311,Renegade Collective M5,controller,1900.0
+312,Phantom Strike Whisper,keyboard,3000.0
+313,Valhalla Gear C7,keyboard,9500.0
+314,Atlas 81T7408,notebook,55000.0
+315,Wraithspire Lumbar 140,desk,1500.0
+316,Wraithspire ANC,headset,4500.0
+317,Canvas Pro 34-inch,monitor,6000.0
+318,Renegade Collective Wireless,headset,4500.0
+319,Tempestuous Tech Synapse,headset,3750.0
+320,Spectral Edge Shift,keyboard,7500.0
+321,Havoc Labs Pro,mouse,6500.0
+322,Valhalla Gear Ghost,keyboard,4000.0
+323,SwiftX 36S2500,notebook,70000.0
+324,Valhalla Gear Elit,mouse,6500.0
+325,Ragnarok Industries Nexus 170,desk,2500.0
+326,Titanforged Cuddle,chair,7500.0
+327,Havoc Labs Throne 180,desk,2500.0
+328,Hyperweave Tech X7,headset,4500.0
+329,Spectral Edge Nexus 220,desk,4000.0
+330,Canvas Pro 22-inch,monitor,4500.0
+331,Atlas 69K2481,notebook,115000.0
+332,Apex Legion Y300,controller,4700.0
+333,SpectraMax Pro 24-inch,monitor,11500.0
+334,Valhalla Gear Throne,chair,1000.0
+335,Titanforged Onslaught,keyboard,2000.0
+336,Fractured Focus Collection 180,desk,5000.0
+337,Titanforged Cuddle 180,desk,5000.0
+338,Spectral Edge Economic,chair,2500.0
+339,Cybernetic Forge Tempest,headset,4000.0
+340,Aeris Lite 67P5909,notebook,130000.0
+341,Havoc Labs Economic 170,desk,4500.0
+342,Cybernetic Forge T80,controller,2700.0
+343,Apex Legion Gaming 170,desk,500.0
+344,Valhalla Gear Prime 220,desk,500.0
+345,FlexView 55-inch,monitor,8500.0
+346,Tempestuous Tech E1400,headset,3500.0
+347,Wraithspire H80 100,desk,9500.0
+348,Apex Gamer 50H6341,notebook,140000.0
+349,Wraithspire V90,headset,3750.0
+350,Phantom Strike Elite 170,desk,500.0
+351,Phantom Strike Elite 160,desk,5500.0
+352,Tempestuous Tech Elite,chair,500.0
+353,Apex Legion Lumbar 240,desk,6500.0
+354,Titanforged D3,mouse,6000.0
+355,Hyperweave Tech Elit,mouse,6000.0
+356,Quantum Flux ANC,headset,1750.0
+357,Cybernetic Forge Audio,headset,1000.0
+358,Paniramic View 43-inch,monitor,9000.0
+359,Mnemonic Gear Premium,mouse,2000.0
+360,SpectraMax Pro 34-inch,monitor,8500.0
+361,Titanforged C1100,controller,1100.0
+362,Wraithspire Viper,mouse,1000.0
+363,Tempestuous Tech Onslaught,keyboard,5500.0
+364,Cybernetic Forge Kinesis,keyboard,2000.0
+365,Havoc Labs Shift,keyboard,6500.0
+366,Tempestuous Tech Prime,chair,6000.0
+367,Hyperweave Tech Elite,chair,5000.0
+368,Strata X 58T5468,notebook,130000.0
+369,Mnemonic Gear Cuddle,chair,4000.0
+370,Wraithspire Nexus 140,desk,5500.0
+371,Spectral Edge Collection 120,desk,9500.0
+372,Spectral Edge P20,controller,3800.0
+373,Phantom Strike G1200,controller,1300.0
+374,Apex Legion U100,controller,4300.0
+375,Fractured Focus Embrace,chair,8000.0
+376,Spectral Edge Premium,mouse,1000.0
+377,NovaFlight 97K2661,notebook,95000.0
+378,Spectral Edge C300,headset,1000.0
+379,TitanCore 46B9527,notebook,120000.0
+380,NovaFlight 94G9144,notebook,125000.0
+381,Cybernetic Forge Storm,keyboard,2000.0
+382,Cybernetic Forge Onslaught,keyboard,9500.0
+383,Hyperweave Tech Nexus,chair,3500.0
+384,Muse 13E6806,notebook,90000.0
+385,Cybernetic Forge Z6,controller,4900.0
+386,Renegade Collective Cobra,mouse,3500.0
+387,Spectral Edge Prime,chair,5500.0
+388,Ragnarok Industries N70,controller,3400.0
+389,Ragnarok Industries X1100,controller,3300.0
+390,Cybernetic Forge Pro,mouse,1000.0
+391,Quantum Flux K20,chair,6500.0
+392,Spectral Edge Prime,chair,7500.0
+393,Havoc Labs Y70,controller,800.0
+394,Cybernetic Forge S800,headset,750.0
+395,Mnemonic Gear M6,controller,4300.0
+396,Phantom Strike Lumbar 100,desk,6000.0
+397,Titanforged Audio,headset,1750.0
+398,Cybernetic Forge S6 170,desk,4000.0
+399,Mnemonic Gear Kraken,mouse,3500.0
+400,Cybernetic Forge Surround,headset,2250.0
+401,BizLine 49C9284,notebook,40000.0
+402,VividView 27-inch,monitor,13500.0
+403,Fractured Focus Pro,chair,8000.0
+404,Phantom Strike H500,controller,2900.0
+405,Quantum Flux Basilisk,mouse,2500.0
+406,Titanforged Elit,mouse,5000.0
+407,Valhalla Gear Bifrost,keyboard,9500.0
+408,Hyperweave Tech Premium,chair,2000.0
+409, NovaSight NS 27-inch,monitor,16000.0
+410,Evo Pro 60X2343,notebook,75000.0
+411,BizLine 25G3793,notebook,60000.0
+412,Tempestuous Tech Bifrost,keyboard,7000.0
+413,FocusZone 24-inch,monitor,10000.0
+414,Valhalla Gear Elite 220,desk,1000.0
+415,Valhalla Gear M700 200,desk,1000.0
+416,Renegade Collective E20,chair,5500.0
+417,SpectraMax 89Y2698,notebook,30000.0
+418,VividView 49-inch,monitor,9500.0
+419,FocusZone 32-inch,monitor,14000.0
+420,Mnemonic Gear ANC,headset,1750.0
+421,Valhalla Gear Elit,mouse,4500.0
+422,Renegade Collective Nexus 170,desk,5500.0
+423,Renegade Collective I300,controller,3900.0
+424,Ragnarok Industries CTRL,keyboard,8500.0
+425,Titanforged Premium,chair,6500.0
+426,VersaFlex 11J9656,notebook,75000.0
+427,Hyperweave Tech K2,chair,2500.0
+428,Cybernetic Forge Aegis,headset,2250.0
+429,VersaFlex 53J6571,notebook,75000.0
+430,Spectral Edge M3,controller,4800.0
+431,ChromeVision 24-inch,monitor,6000.0
+432,Havoc Labs Leviathan,mouse,7000.0
+433,FocusZone 43-inch,monitor,7500.0
+434,Havoc Labs Cuddle,chair,5000.0
+435,FocusZone 27-inch,monitor,5500.0
+436,Wraithspire H700,controller,4100.0
+437,Spectral Edge Collective 160,desk,1000.0
+438,VersaFlex 57Y3044,notebook,100000.0
+439,NovaFlight 93R7389,notebook,35000.0
+440,Mnemonic Gear Shift,keyboard,9000.0
+441,VividView 43-inch,monitor,10000.0
+442,Quantum Flux F30,controller,4600.0
+443,Renegade Collective C6,controller,2500.0
+444,Titanforged C60,controller,3700.0
+445,VisuGen VX 22-inch,monitor,17500.0
+446,Tempestuous Tech P1,controller,600.0
+447,Tempestuous Tech P7,controller,2800.0
+448,Fractured Focus Nexus,chair,7000.0
+449,Cybernetic Forge Collective 120,desk,6000.0
+450,Tempestuous Tech Shadow,mouse,7500.0
+451,Quantum Flux Eclipse,keyboard,7500.0
+452,Quantum Flux Shadow,mouse,7000.0
+453,Havoc Labs Prime,chair,7500.0
+454,Fractured Focus Q-Link,headset,1000.0
+455,Titanforged L4,keyboard,7000.0
+456,Havoc Labs Y30,headset,3250.0
+457,Cybernetic Forge Eecall,headset,3000.0
+458,Strata X 77D4789,notebook,90000.0
+459,Havoc Labs Collection 170,desk,7500.0
+460,Phantom Strike Umbra,headset,4000.0
+461,LuminaLite 22-inch,monitor,17000.0
+462,Apex Legion Throne 220,desk,2000.0
+463,Ragnarok Industries Premium 180,desk,7000.0
+464,VividView 32-inch,monitor,16000.0
+465,Quantum Flux Lumbar,chair,6000.0
+466,StudioCraft 21G4753,notebook,140000.0
+467,Hyperweave Tech Shift,keyboard,2500.0
+468,Spectral Edge Y4 120,desk,500.0
+469,Wraithspire Echelon,headset,2000.0
+470,Titanforged M1100,controller,1700.0
+471,Ragnarok Industries B1000,chair,4500.0
+472,Fractured Focus K6,controller,4200.0
+473,Titanforged Lumbar 240,desk,1500.0
+474,Phantom Strike Gaming,chair,7500.0
+475,Quantum Flux Embrace 120,desk,9000.0
+476,Titanforged Elit,mouse,6000.0
+477,Cybernetic Forge CTRL,keyboard,9000.0
+478,Mnemonic Gear Y200,chair,9500.0
+479,Cybernetic Forge Pro,chair,9500.0
+480,Havoc Labs T30,controller,1600.0
+481,Wraithspire Q20,controller,1600.0
+482,VisuGen VX 27-inch,monitor,13000.0
+483,Hyperweave Tech Eclipse,keyboard,2500.0
+484,Titanforged Viper,mouse,2500.0
+485,Valhalla Gear D1,controller,1400.0
+486,Apex Legion Premium,chair,8500.0
+487,EdgeLight 90S2796,notebook,75000.0
+488,Titanforged Shadow,mouse,1000.0
+489,VoltBook 15P9927,notebook,120000.0
+490,Wraithspire T200,chair,1000.0
+491,VersaFlex 17M5133,notebook,105000.0
+492,Spectral Edge Pro,headset,1000.0
+493,Quantum Flux Elite,headset,4250.0
+494,Fractured Focus Economic,chair,3500.0
+495,Mnemonic Gear T1100,controller,500.0
+496,Quantum Flux C8,chair,6000.0
+497,Cybernetic Forge A1,controller,1500.0
+498,Phantom Strike Aero 120,desk,4500.0
+499,Tempestuous Tech Gaming,chair,3000.0
+500,Apex Legion Cobra,mouse,6500.0
+501,Fractured Focus Synapse,headset,3000.0
+502,Renegade Collective Prime,chair,2500.0
+503,Wraithspire Synapse,headset,4500.0
+504,Nimbus Touch 94H2428,notebook,35000.0
+505,Tempestuous Tech Premium,mouse,7000.0
+506,Quantum Flux E1100,controller,3200.0
+507,Spectral Edge Shadow,mouse,2500.0
+508,Havoc Labs H20,controller,1500.0
+509,StudioCraft 70Q3162,notebook,35000.0
+510,Havoc Labs H1100,controller,4600.0
+511,Quantum Flux D1400,controller,600.0
+512,Havoc Labs Shadow,mouse,5000.0
+513,Zenith Z-Curve 34-inch,monitor,8000.0
+514,SpectraMax Pro 34-inch,monitor,7000.0
+515,Tempestuous Tech F300 140,desk,6500.0
+516,Hyperweave Tech Kraken,mouse,3000.0
+517,Renegade Collective Aegis,headset,1250.0
+518,Valhalla Gear K30,controller,1800.0
+519,Renegade Collective F8,controller,2000.0
+520,Phantom Strike V700,controller,4300.0
+521,Mnemonic Gear Echelon,headset,2750.0
+522,Tempestuous Tech V6,keyboard,1500.0
+523,Ragnarok Industries Nexus,chair,2000.0
+524,ClarityPrime 22-inch,monitor,6000.0
+525,Havoc Labs Eclipse,keyboard,9500.0
+526,Tempestuous Tech M3,controller,500.0
+527,Hyperweave Tech Wireless,headset,1250.0
+528,Havoc Labs Basilisk,mouse,6500.0
+529,Wraithspire Nexus 170,desk,3000.0
+530,Havoc Labs Throne 170,desk,6000.0
+531,VisuGen VX 32-inch,monitor,12500.0
+532,Cybernetic Forge Echelon,headset,4000.0
+533,Havoc Labs H80,controller,4600.0
+534,Havoc Labs X8,controller,2400.0
+535,Renegade Collective Aero 100,desk,2500.0
+536,Ragnarok Industries Lumbar,chair,9000.0
+537,Phantom Strike H6,keyboard,9500.0
+538,Renegade Collective Nexus 100,desk,3000.0
+539,Cybernetic Forge Shift,keyboard,4000.0
+540,Mnemonic Gear Collective 240,desk,5500.0
+541,Cybernetic Forge D5,chair,5500.0
+542,BizLine 73W9302,notebook,125000.0
+543,Renegade Collective Leviathan,mouse,4000.0
+544,Tempestuous Tech Y6,controller,900.0
+545,Fractured Focus Throne 220,desk,500.0
+546,Titanforged Pro,mouse,4500.0
+547,Aeris Lite 86B4543,notebook,70000.0
+548,Apex Gamer 75F5455,notebook,110000.0
+549,Wraithspire G8,controller,4700.0
+550,Cybernetic Forge Synapse,headset,4000.0
+551,Spectral Edge Kinesis,keyboard,7500.0
+552,Valhalla Gear L1100,controller,4900.0
+553,Spectral Edge Throne,chair,6500.0
+554, NovaSight NS 55-inch,monitor,13500.0
+555,Havoc Labs Eecall,headset,3500.0
+556,Cybernetic Forge Premium,mouse,1500.0
+557,Muse 29C3538,notebook,80000.0
+558,Apex Legion Economic,chair,2000.0
+559,Apex Legion Prime 170,desk,9500.0
+560,Apex Legion Viper,mouse,7000.0
+561,Spectral Edge Premium 220,desk,4500.0
+562,Wraithspire Premium,mouse,4500.0
+563,Spectral Edge Lumbar,chair,8000.0
+564,NovaFlight 1M6171,notebook,40000.0
+565,Quantum Flux Collective,chair,6500.0
+566,Havoc Labs Lumbar,chair,6500.0
+567,VividView 55-inch,monitor,7500.0
+568,Apex Legion Echelon,headset,750.0
+569,Mnemonic Gear A4,controller,1100.0
+570,VividView 32-inch,monitor,16500.0
+571,Apex Legion K20,controller,3900.0
+572,Titanforged Ghost,keyboard,5500.0
+573,Mnemonic Gear P800,controller,1800.0
+574,Cybernetic Forge TKL,keyboard,4000.0
+575,Tempestuous Tech Pro,mouse,1500.0
+576,SpectraMax 7X5999,notebook,35000.0
+577,Fractured Focus Pro,mouse,2500.0
+578,VisuGen VX 27-inch,monitor,7500.0
+579,Titanforged Cobra,mouse,6500.0
+580,Tempestuous Tech Onslaught,keyboard,9000.0
+581,Phantom Strike G7,controller,2500.0
+582,Havoc Labs I1,controller,2800.0
+583,Ragnarok Industries Premium 160,desk,7000.0
+584,Mnemonic Gear Economic,chair,5500.0
+585,Quantum Flux Throne 160,desk,8000.0
+586,Tempestuous Tech Viper,mouse,7000.0
+587,Titanforged Q-Link,headset,500.0
+588,Apex Legion Collection 240,desk,7500.0
+589,Hyperweave Tech T30,controller,3500.0
+590,StudioCraft 43H8294,notebook,70000.0
+591,Renegade Collective Tempest,headset,3750.0
+592,VisuGen VX 43-inch,monitor,8000.0
+593,Spectral Edge Throne,chair,7000.0
+594,Fractured Focus Gaming,chair,9500.0
+595,Wraithspire K900,headset,3750.0
+596,EdgeLight 78V4942,notebook,135000.0
+597,Titanforged M7,mouse,6500.0
+598,Hyperweave Tech Surround,headset,3250.0
+599,ClarityPrime 49-inch,monitor,14000.0
+600,Fractured Focus Pro 180,desk,4500.0
+601,Mnemonic Gear T200,chair,7000.0
+602,Phantom Strike Kraken,mouse,7000.0
+603,Wraithspire F8,controller,2300.0
+604,Titanforged D8,mouse,2500.0
+605,Lumina Canvas 6P6118,notebook,85000.0
+606,Ragnarok Industries V1300,controller,2800.0
+607,Phantom Strike Eecall,headset,750.0
+608,Tempestuous Tech Ghost,keyboard,6000.0
+609,Wraithspire Collection 200,desk,6000.0
+610,Cybernetic Forge X4,controller,1800.0
+611,Hyperweave Tech S50,controller,3200.0
+612,Renegade Collective CTRL,keyboard,9500.0
+613,Valhalla Gear Shift,keyboard,2500.0
+614,Havoc Labs Leviathan,mouse,2500.0
+615,Havoc Labs A70,controller,4100.0
+616,Renegade Collective Lumbar,chair,2000.0
+617,VividView 49-inch,monitor,4500.0
+618,Spectral Edge R100,controller,700.0
+619,Renegade Collective P1200,controller,2500.0
+620,Wraithspire Ghost,keyboard,4000.0
+621,Strata X 4G9891,notebook,30000.0
+622,Fractured Focus Leviathan,mouse,4500.0
+623,Tempestuous Tech Ghost,keyboard,1000.0
+624,Lumina Canvas 53S8416,notebook,35000.0
+625,Apex Legion Aero 220,desk,1500.0
+626,Mnemonic Gear CTRL,keyboard,5500.0
+627,Cybernetic Forge E1400,controller,4400.0
+628,Wraithspire Storm,keyboard,9000.0
+629,Apex Legion M4,controller,1200.0
+630, NovaSight NS 32-inch,monitor,16500.0
+631,Valhalla Gear CTRL,keyboard,8500.0
+632,Ragnarok Industries Audio,headset,3500.0
+633,Fractured Focus Prime 220,desk,500.0
+634,Apex Legion CTRL,keyboard,8000.0
+635,Hyperweave Tech Throne 200,desk,8500.0
+636,Hyperweave Tech Wraith,keyboard,1500.0
+637,Muse 82X9846,notebook,60000.0
+638,Apex Legion Z1200,controller,3000.0
+639,SpectraMax Pro 43-inch,monitor,9000.0
+640,EdgeLight 15L3335,notebook,70000.0
+641,Ragnarok Industries Premium,chair,3500.0
+642,VividView 34-inch,monitor,4000.0
+643,Ragnarok Industries Kraken,mouse,3000.0
+644,Tempestuous Tech Shadow,mouse,3000.0
+645,SpectraMax Pro 43-inch,monitor,11000.0
+646,Renegade Collective Y1,controller,4100.0
+647,Wraithspire Collective 160,desk,500.0
+648,Phantom Strike Gamming,mouse,7500.0
+649,Mnemonic Gear X8,mouse,3000.0
+650,VividView 49-inch,monitor,17000.0
+651,Hyperweave Tech K7,controller,2000.0
+652,Zenith 63E6180,notebook,100000.0
+653,Havoc Labs Synapse,headset,3750.0
+654, NovaSight NS 49-inch,monitor,10000.0
+655,Tempestuous Tech Elite,keyboard,9000.0
+656,Titanforged L3,controller,700.0
+657,Quantum Flux Elite,headset,1500.0
+658,Renegade Collective Premium,mouse,4000.0
+659,Titanforged Nexus 160,desk,8500.0
+660,Comet 95H1086,notebook,30000.0
+661,Apex Legion Collective 220,desk,8500.0
+662,Tempestuous Tech Gamming,mouse,7500.0
+663,Phantom Strike Cuddle 140,desk,6000.0
+664,Fractured Focus Gaming,chair,6000.0
+665,Mnemonic Gear Q70,chair,2500.0
+666,Fractured Focus Cobra,mouse,4000.0
+667,Apex Legion Z10,controller,2800.0
+668,Canvas Pro 55-inch,monitor,7500.0
+669,Zenith 74C3126,notebook,25000.0
+670,Strata X 26N8975,notebook,65000.0
+671,Wraithspire O1,mouse,7500.0
+672,Cybernetic Forge Prime 100,desk,1000.0
+673,Hyperweave Tech Echelon,headset,3250.0
+674,Valhalla Gear V400,controller,700.0
+675,Havoc Labs R100,controller,1700.0
+676,FocusZone 55-inch,monitor,19000.0
+677,Apex Legion Z1,chair,1500.0
+678,Apex Legion Shift,keyboard,4500.0
+679,Mnemonic Gear A6,keyboard,9500.0
+680,Havoc Labs P7,headset,3000.0
+681,Atlas 57W7328,notebook,80000.0
+682,SwiftX 41T2467,notebook,115000.0
+683,Spectral Edge Whisper,keyboard,9000.0
+684,Mnemonic Gear Eclipse,keyboard,2000.0
+685,Titanforged Pro,chair,1000.0
+686,Havoc Labs Collective 160,desk,1500.0
+687,Quantum Flux Storm,keyboard,9000.0
+688,Ragnarok Industries W200,headset,750.0
+689,FocusZone 27-inch,monitor,17000.0
+690,Phantom Strike Synapse,headset,1000.0
+691,Tempestuous Tech CTRL,keyboard,9500.0
+692,Titanforged B300,chair,8500.0
+693,Valhalla Gear Elite,keyboard,6000.0
+694,Comet 77P1441,notebook,90000.0
+695,Wraithspire T3,controller,2600.0
+696,Wraithspire J40 200,desk,3000.0
+697,Wraithspire X5,controller,4600.0
+698,Titanforged Elite,chair,7000.0
+699,BizLine 89Y9392,notebook,45000.0
+700,Atlas 7W5296,notebook,95000.0
+701,Renegade Collective Lumbar,chair,9500.0
+702,Fractured Focus Pro,chair,3500.0
+703,Apex Gamer 56Q4967,notebook,20000.0
+704,Havoc Labs Synapse,headset,4250.0
+705,Wraithspire Cobra,mouse,7500.0
+706,Titanforged Lumbar,chair,3500.0
+707,Mnemonic Gear Elite,headset,2250.0
+708,Wraithspire Economic,chair,2000.0
+709,Cybernetic Forge Throne,chair,5000.0
+710,VersaFlex 23B9196,notebook,45000.0
+711,Ragnarok Industries Premium,chair,500.0
+712,Tempestuous Tech Eclipse,keyboard,2500.0
+713,Titanforged Umbra,headset,500.0
+714,Hyperweave Tech Eecall,headset,4750.0
+715,Phantom Strike Cuddle 120,desk,8500.0
+716,Spectral Edge Echelon,headset,3750.0
+717,Wraithspire C1400,controller,3200.0
+718,Quantum Flux Q1300 140,desk,500.0
+719,Fractured Focus Collection,chair,3000.0
+720,Hyperweave Tech Elite 100,desk,9000.0
+721,Quantum Flux Umbra,headset,4750.0
+722,Quantum Flux Premium,chair,1500.0
+723,Ragnarok Industries J7,chair,5500.0
+724,Mnemonic Gear Aegis,headset,3500.0
+725,Renegade Collective Premium,chair,4500.0
+726,Wraithspire Nexus 120,desk,500.0
+727,Ragnarok Industries Shadow,mouse,3500.0
+728,Apex Legion Leviathan,mouse,2500.0
+729,Phantom Strike Collection,chair,7500.0
+730,Phantom Strike Viper,mouse,2000.0
+731,Valhalla Gear Kinesis,keyboard,1000.0
+732,Apex Legion Premium,chair,8500.0
+733,Spectral Edge O30,controller,3500.0
+734,Hyperweave Tech Shift,keyboard,2500.0
+735,Titanforged Economic,chair,3500.0
+736,ChromeVision 24-inch,monitor,15000.0
+737,Renegade Collective Cuddle 170,desk,8500.0
+738,Apex Legion Nexus,chair,7000.0
+739,Renegade Collective Kraken,mouse,3500.0
+740,Evo Pro 82Y3735,notebook,50000.0
+741,Ragnarok Industries Lumbar,chair,3000.0
+742,Renegade Collective Pro,mouse,6000.0
+743,Hyperweave Tech ANC,headset,4000.0
+744,Titanforged Y7,controller,4600.0
+745,Phantom Strike Pro,headset,3000.0
+746,Spectral Edge Shadow,mouse,5500.0
+747,Valhalla Gear Shadow,mouse,1500.0
+748,Phantom Strike V1300,controller,1200.0
+749,AeroStream AS 43-inch,monitor,3000.0
+750,Apex Legion Whisper,keyboard,1000.0
+751,Fractured Focus E2,controller,600.0
+752,Apex Legion Cuddle,chair,1000.0
+753,VisuGen VX 22-inch,monitor,5000.0
+754,Cybernetic Forge Elite,keyboard,7500.0
+755,Cybernetic Forge E600 220,desk,9000.0
+756,Aeris Lite 51V9277,notebook,20000.0
+757,FlexView 22-inch,monitor,14500.0
+758,NovaFlight 49C8529,notebook,40000.0
+759,Apex Legion Prime,chair,7500.0
+760,Phantom Strike Eclipse,keyboard,7500.0
+761,Phantom Strike Shift,keyboard,6000.0
+762,Phantom Strike P8,controller,4100.0
+763,VividView 22-inch,monitor,12000.0
+764,Phantom Strike X20,controller,3200.0
+765,Havoc Labs Q2,mouse,1500.0
+766,Wraithspire Nexus 100,desk,500.0
+767,Wraithspire Surround,headset,1500.0
+768,Spectral Edge Cuddle 160,desk,2000.0
+769,Hyperweave Tech Premium,chair,4500.0
+770,Lumina Canvas 56B9020,notebook,100000.0
+771,Apex Legion K70,controller,600.0
+772,Cybernetic Forge Basilisk,mouse,7500.0
+773,Apex Legion Pro,mouse,7000.0
+774,Apex Legion P70 140,desk,4500.0
+775,Phantom Strike N6 140,desk,7500.0
+776,Titanforged Aero,chair,7000.0
+777,Quantum Flux Gamming,mouse,6000.0
+778,SwiftX 24K7148,notebook,140000.0
+779,Tempestuous Tech Bifrost,keyboard,7000.0
+780,SwiftX 16B2461,notebook,35000.0
+781,Ragnarok Industries U3,controller,500.0
+782,Tempestuous Tech Whisper,keyboard,6000.0
+783,Mnemonic Gear Kinesis,keyboard,2500.0
+784,Havoc Labs Pro,chair,6000.0
+785,Apex Gamer 61J1359,notebook,65000.0
+786,Renegade Collective Viper,mouse,5500.0
+787,VersaFlex 79I3649,notebook,140000.0
+788,Canvas Pro 55-inch,monitor,14500.0
+789,Titanforged Gaming 160,desk,9500.0
+790,Cybernetic Forge Onslaught,keyboard,7500.0
+791,Evo Pro 68J5562,notebook,75000.0
+792,Quantum Flux Leviathan,mouse,6500.0
+793,Spectral Edge Shadow,mouse,7000.0
+794,Mnemonic Gear Prime 200,desk,5500.0
+795,Titanforged P200,controller,4500.0
+796,Mnemonic Gear Whisper,keyboard,5500.0
+797,Renegade Collective Collective 240,desk,1500.0
+798,Quantum Flux Wraith,keyboard,5500.0
+799,Cybernetic Forge Premium,mouse,1500.0
+800,Cybernetic Forge L7,mouse,7000.0
+801,Titanforged Pro,headset,500.0
+802,EdgeLight 33Y8313,notebook,130000.0
+803,Apex Legion Y4,chair,5500.0
+804,Fractured Focus Ghost,keyboard,4000.0
+805,Cybernetic Forge CTRL,keyboard,8500.0
+806,Hyperweave Tech Collective 240,desk,9500.0
+807,Cybernetic Forge Kinesis,keyboard,2000.0
+808,VoltBook 19J1145,notebook,50000.0
+809,Valhalla Gear Collection 170,desk,5000.0
+810,Cybernetic Forge D8,keyboard,9000.0
+811,Canvas Pro 24-inch,monitor,5500.0
+812,Strata X 41M9578,notebook,130000.0
+813,Valhalla Gear Elit,mouse,7000.0
+814,Evo Pro 83P5087,notebook,90000.0
+815,Spectral Edge Pro 240,desk,9500.0
+816,Renegade Collective Leviathan,mouse,6000.0
+817,Cybernetic Forge Eecall,headset,3750.0
+818,Spectral Edge ANC,headset,1250.0
+819,Evo Pro 89E9129,notebook,95000.0
+820,Fractured Focus Collective 180,desk,5500.0
+821,Apex Legion Shift,keyboard,7500.0
+822,Hyperweave Tech Throne 140,desk,8500.0
+823,Fractured Focus Aegis,headset,4750.0
+824,Havoc Labs Gaming,chair,1500.0
+825,Havoc Labs F1200,controller,2300.0
+826,Strata X 59X2709,notebook,130000.0
+827,Fractured Focus Leviathan,mouse,4000.0
+828,Havoc Labs C60,controller,4100.0
+829,Mnemonic Gear Pro,headset,1750.0
+830,Mnemonic Gear Whisper,keyboard,1000.0
+831,Titanforged Onslaught,keyboard,4000.0
+832,AeroStream AS 32-inch,monitor,19500.0
+833,Hyperweave Tech Pro,headset,750.0
+834,Fractured Focus Kraken,mouse,1000.0
+835,Wraithspire Wraith,keyboard,4500.0
+836,Phantom Strike Collection,chair,2500.0
+837,TitanCore 85U7233,notebook,35000.0
+838,Tempestuous Tech Cobra,mouse,6500.0
+839,Phantom Strike J100,controller,900.0
+840,Phantom Strike A5,controller,4400.0
+841,Cybernetic Forge Premium 120,desk,2500.0
+842,Mnemonic Gear Umbra,headset,2500.0
+843,FocusZone 22-inch,monitor,16000.0
+844,LuminaLite 27-inch,monitor,15000.0
+845,Cybernetic Forge Lumbar 100,desk,5500.0
+846,Phantom Strike Nexus,chair,1500.0
+847,Ragnarok Industries F8,mouse,7000.0
+848,Apex Legion Shift,keyboard,7000.0
+849,Hyperweave Tech Lumbar,chair,5000.0
+850,Wraithspire Storm,keyboard,8500.0
+851,Tempestuous Tech Collection 140,desk,5000.0
+852,Fractured Focus Wireless,headset,1500.0
+853,Havoc Labs Economic 160,desk,3000.0
+854,Apex Legion Premium 220,desk,1500.0
+855,SpectraMax Pro 27-inch,monitor,17000.0
+856,Cybernetic Forge U60,controller,4400.0
+857,Renegade Collective Pro,headset,2500.0
+858,Wraithspire Prime,chair,5500.0
+859,Tempestuous Tech CTRL,keyboard,4500.0
+860,Ragnarok Industries A30,controller,700.0
+861,Valhalla Gear W1300,controller,1700.0
+862,Havoc Labs Wireless,headset,4000.0
+863,Spectral Edge Collective 170,desk,5000.0
+864,Titanforged K1400,controller,4900.0
+865,Quantum Flux Echelon,headset,500.0
+866,VividView 24-inch,monitor,14500.0
+867,Renegade Collective ANC,headset,1500.0
+868,Quantum Flux Basilisk,mouse,2500.0
+869,Valhalla Gear Gamming,mouse,4000.0
+870,Hyperweave Tech Nexus 180,desk,5000.0
+871,Cybernetic Forge Viper,mouse,3500.0
+872,EyeFeast 22-inch,monitor,15000.0
+873,ChromeVision 32-inch,monitor,8000.0
+874,Hyperweave Tech H5,controller,4600.0
+875,LuminaLite 55-inch,monitor,15500.0
+876,Paniramic View 49-inch,monitor,13000.0
+877,Quantum Flux Ghost,keyboard,2000.0
+878,TitanCore 37H7457,notebook,50000.0
+879,Wraithspire CTRL,keyboard,2000.0
+880,Tempestuous Tech Pro 120,desk,7500.0
+881,Havoc Labs F3,mouse,7000.0
+882,StudioCraft 14P3134,notebook,105000.0
+883,FlexView 22-inch,monitor,6500.0
+884,Mnemonic Gear Elit,mouse,6500.0
+885,Ragnarok Industries Prime 240,desk,9000.0
+886,Wraithspire D1200,controller,2100.0
+887,Spectral Edge Aero,chair,4500.0
+888,Tempestuous Tech Audio,headset,1750.0
+889,Wraithspire Aero 180,desk,7500.0
+890,Wraithspire Kinesis,keyboard,5500.0
+891,Atlas 13G8800,notebook,85000.0
+892,Ragnarok Industries Z2,controller,1400.0
+893,VividView 43-inch,monitor,8000.0
+894,Hyperweave Tech N5,chair,4500.0
+895,Hyperweave Tech Kraken,mouse,3500.0
+896,Wraithspire Economic 220,desk,2000.0
+897,Mnemonic Gear L30,controller,1200.0
+898,Havoc Labs Shadow,mouse,2500.0
+899,Mnemonic Gear Cobra,mouse,3000.0
+900,Quantum Flux Cobra,mouse,3000.0
+901,Valhalla Gear Q6,controller,3700.0
+902,Renegade Collective Pro,mouse,2500.0
+903,ClarityPrime 43-inch,monitor,12500.0
+904,Renegade Collective Economic,chair,7500.0
+905,Quantum Flux Storm,keyboard,3000.0
+906,Tempestuous Tech Leviathan,mouse,4500.0
+907,Valhalla Gear V4,mouse,6500.0
+908,Phantom Strike Collective 240,desk,9000.0
+909,Aeris Lite 38R1605,notebook,45000.0
+910,Apex Legion A40,controller,4500.0
+911,Havoc Labs Pro,headset,3000.0
+912,Valhalla Gear Kraken,mouse,1000.0
+913,Quantum Flux H300 240,desk,3500.0
+914,Apex Gamer 55O8237,notebook,110000.0
+915,Hyperweave Tech P8,controller,3400.0
+916,Mnemonic Gear Prime 100,desk,2000.0
+917,Phantom Strike Throne 120,desk,1500.0
+918,Titanforged Q-Link,headset,3500.0
+919,Tempestuous Tech H8,keyboard,2500.0
+920,Apex Legion Elite,chair,7000.0
+921,VersaFlex 97N5834,notebook,35000.0
+922,Titanforged Ghost,keyboard,4500.0
+923,Quantum Flux Kinesis,keyboard,5000.0
+924,Ragnarok Industries Eclipse,keyboard,9500.0
+925,SpectraMax Pro 55-inch,monitor,9500.0
+926,Fractured Focus Premium,mouse,5500.0
+927,Wraithspire Surround,headset,1250.0
+928,Wraithspire Q-Link,headset,1250.0
+929,Fractured Focus Kraken,mouse,4500.0
+930,Titanforged Prime,chair,8000.0
+931,Titanforged Embrace 140,desk,4000.0
+932,Mnemonic Gear E6,controller,4200.0
+933,Spectral Edge B70,controller,3600.0
+934,Nimbus Touch 10H7835,notebook,145000.0
+935,Muse 20Z3828,notebook,95000.0
+936,Titanforged Storm,keyboard,3000.0
+937,Tempestuous Tech Eclipse,keyboard,4000.0
+938,Renegade Collective A10,chair,7500.0
+939,Nomad Pro 82R2576,notebook,120000.0
+940,Hyperweave Tech J1100,controller,4000.0
+941,Valhalla Gear C60,controller,800.0
+942,Hyperweave Tech Audio,headset,4750.0
+943,Renegade Collective Pro,chair,3000.0
+944,LuminaLite 22-inch,monitor,12500.0
+945,Canvas Pro 55-inch,monitor,7000.0
+946,Renegade Collective Kraken,mouse,5500.0
+947,Canvas Pro 24-inch,monitor,10500.0
+948,Spectral Edge Shift,keyboard,6000.0
+949,Tempestuous Tech Elite 160,desk,5000.0
+950,Hyperweave Tech Z1,controller,2500.0
+951,Renegade Collective Pro,chair,3500.0
+952,Wraithspire Kinesis,keyboard,1000.0
+953,Muse 51J5375,notebook,130000.0
+954,EyeFeast 43-inch,monitor,17000.0
+955,Spectral Edge Shadow,mouse,5000.0
+956,Renegade Collective Bifrost,keyboard,4000.0
+957,Ragnarok Industries Collective 100,desk,1500.0
+958,NovaFlight 61P2675,notebook,105000.0
+959,Tempestuous Tech Elite,chair,4000.0
+960,Paniramic View 49-inch,monitor,14500.0
+961,Phantom Strike Cuddle,chair,9000.0
+962,Havoc Labs F500,chair,2000.0
+963,Mnemonic Gear S1400,controller,1400.0
+964,Apex Legion Basilisk,mouse,2500.0
+965,Havoc Labs Y20,chair,6000.0
+966,Renegade Collective Aero,chair,4000.0
+967,Havoc Labs Elit,mouse,1000.0
+968,Titanforged Premium,mouse,5500.0
+969,EdgeLight 46G7306,notebook,55000.0
+970,Hyperweave Tech Pro,headset,4500.0
+971,Renegade Collective Wireless,headset,1000.0
+972,Zenith 18X5707,notebook,60000.0
+973,Renegade Collective Audio,headset,1250.0
+974,Phantom Strike Y70,controller,4300.0
+975,Tempestuous Tech M1100,headset,2500.0
+976,Strata X 26S4962,notebook,105000.0
+977,Atlas 80C1543,notebook,105000.0
+978,Renegade Collective Synapse,headset,500.0
+979,Fractured Focus Pro,mouse,4000.0
+980,Tempestuous Tech Kinesis,keyboard,5500.0
+981,Fractured Focus Premium,mouse,7500.0
+982,AeroStream AS 24-inch,monitor,19500.0
+983,Quantum Flux Lumbar 120,desk,7000.0
+984,Tempestuous Tech Eecall,headset,1250.0
+985,Havoc Labs Aegis,headset,3250.0
+986,Hyperweave Tech Leviathan,mouse,3000.0
+987,Ragnarok Industries R30,controller,2000.0
+988,ChromeVision 24-inch,monitor,13000.0
+989,Wraithspire Elite,headset,4750.0
+990,Spectral Edge Leviathan,mouse,6000.0
+991,ChromeVision 32-inch,monitor,12500.0
+992,Valhalla Gear Onslaught,keyboard,8000.0
+993,Apex Gamer 67H3373,notebook,85000.0
+994,Fractured Focus N200,controller,4600.0
+995,Spectral Edge Premium,mouse,3500.0
+996,Wraithspire Echelon,headset,1000.0
+997,Valhalla Gear Kinesis,keyboard,6500.0
+998,EdgeLight 90K2710,notebook,25000.0
+999,Valhalla Gear E60,controller,1400.0
